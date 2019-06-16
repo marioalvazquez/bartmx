@@ -1,0 +1,21 @@
+.hero {
+    background-image: url('../../../assets/landing.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.project {
+    background: rgb(101, 255, 151);
+}
+
+.talk-us {
+    border: .2rem solid #8100df;
+    text-transform: uppercase;
+    color: #8100df;
+    background: #FFF;
+    text-align: center;
+    margin: 3rem 0;
+}
