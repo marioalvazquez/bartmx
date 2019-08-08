@@ -5,21 +5,62 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    #text-hero{
+        padding-top: 25rem;
+        padding-left: 11%;
+        width: 50%;
+        text-align: justify;
+        color: white;
+    }    
 }
+
 
 .project {
     background: rgb(101, 255, 151);
-}
-
-.talk-us {
-    border: .2rem solid #8100df;
-    text-transform: uppercase;
-    color: #8100df;
-    background: #FFF;
-    text-align: center;
-    margin: 3rem 0;
+    #project-content {
+        justify-content: center;
+        div .talk-us {
+            padding: 5%;
+            border: .2rem solid #8100df;
+            text-transform: uppercase;
+            color: #8100df;
+            background: #FFF;
+            text-align: center;
+            margin: 3rem 0;        
+        }
+    }
 }
 
 #services {
     background-color: #8289ff;
+    div img {
+        width: 100%;
+        border: none;
+    }
+    .row div {
+        margin-right:auto;
+        border: none;
+    }
+}
+
+#book {
+    background-color: #9EF6D7;
+    .row div h2 {
+        margin: 1rem;
+        color: #8100df;;
+    }
+}
+
+#gallery {
+    div {
+        margin: 0;
+        padding: 0;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+nav button {
+    background-color: white;
 }
