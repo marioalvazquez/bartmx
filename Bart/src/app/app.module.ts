@@ -10,6 +10,7 @@ import { ConcepcionCabreraComponent } from './concepcion-cabrera/concepcion-cabr
 import { TodosRapa2Component } from './todos-rapa2/todos-rapa2.component';
 import { ServalComponent } from './serval/serval.component';
 import { Ep7aComponent } from './ep7a/ep7a.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Ep7aComponent } from './ep7a/ep7a.component';
     ConcepcionCabreraComponent,
     TodosRapa2Component,
     ServalComponent,
-    Ep7aComponent
+    Ep7aComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
