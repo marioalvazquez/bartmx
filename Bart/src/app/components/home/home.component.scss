@@ -64,3 +64,22 @@
 nav button {
     background-color: white;
 }
+
+#contact{
+    #image {
+        background-image: url('../../../assets/contact.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
+    }
+    #form {
+        background-color: #D4F5BC;
+        color:#6F72FC;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        padding: 5%;
+    }
+}
