@@ -5,15 +5,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    #text-hero{
-        padding-top: 25rem;
+    #text-hero {
+        padding-top: 40rem;
         padding-left: 11%;
         width: 50%;
         text-align: justify;
         color: white;
-    }    
+    }
 }
-
 
 .project {
     background: rgb(101, 255, 151);
@@ -26,7 +25,7 @@
             color: #8100df;
             background: #FFF;
             text-align: center;
-            margin: 3rem 0;        
+            margin: 3rem 0;
         }
     }
 }
@@ -38,7 +37,7 @@
         border: none;
     }
     .row div {
-        margin-right:auto;
+        margin-right: auto;
         border: none;
     }
 }
@@ -47,11 +46,14 @@
     background-color: #9EF6D7;
     .row div h2 {
         margin: 1rem;
-        color: #8100df;;
+        color: #8100df;
+        ;
     }
 }
 
 #gallery {
+    padding-right: 0;
+    padding-left: 0;
     div {
         margin: 0;
         padding: 0;
@@ -65,7 +67,7 @@ nav button {
     background-color: white;
 }
 
-#contact{
+#contact {
     #image {
         background-image: url('../../../assets/contact.gif');
         background-position: center;
@@ -76,7 +78,7 @@ nav button {
     }
     #form {
         background-color: #D4F5BC;
-        color:#6F72FC;
+        color: #6F72FC;
         top: 0px;
         bottom: 0px;
         right: 0px;
