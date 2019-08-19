@@ -6,9 +6,17 @@
     background-size: cover;
     width: 100%;
     #text-hero {
-        padding-top: 40rem;
-        padding-left: 11%;
-        width: 50%;
+        padding-top: 25rem;  
+        @media screen and (min-width: 720px) {
+            padding-left: 11%;
+            width: 50%;
+            
+        }
+        @media screen and (max-width: 720px) {
+            width: 100%;
+            padding-left: 3%;
+            padding-right:3%;
+        }
         text-align: justify;
         color: white;
     }
