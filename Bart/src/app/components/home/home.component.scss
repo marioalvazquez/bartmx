@@ -1,15 +1,14 @@
 .hero {
     background-image: url('../../../assets/landing.gif');
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     #text-hero {
-        padding-top: 25rem;  
+        padding-top: 19rem;  
         @media screen and (min-width: 720px) {
             padding-left: 11%;
-            width: 50%;
+            width: 60%;
             
         }
         @media screen and (max-width: 720px) {
@@ -55,7 +54,6 @@
     .row div h2 {
         margin: 1rem;
         color: #8100df;
-        ;
     }
 }
 
